@@ -36,7 +36,7 @@ def saturdays_bank_transactions(transations) -> Tuple[float, float]:
     checking += transations[9]
     
     checking += transations[10]
-
+    
     return checking, savings
 
 if __name__ == "__main__":
